@@ -1,0 +1,60 @@
+# keys must not repeat
+
+# numeric
+dec: 1
+hex: 0x12d4
+oct: 023332
+nan: .NAN
+inifinity: .Inf
+anotherinfinity: .inf
+
+# strings
+bar: this is not a normal string
+
+# escaping using double quotes and \n
+foo: "this is not a normal string\n"
+
+# multiline string using > but it will be interpreted in one line
+mulString: >
+  hellow
+  world
+
+# interpreting multiline
+bar1: |
+  hellow
+  world
+
+# null
+null1: null
+null2: ~
+
+# booleans
+b1: True
+b2: False
+light: On
+TV: Off
+
+# arrays
+items: [1, 2, 3, 4, 5]
+names:
+  - "one"
+  - "two"
+  - "three"
+  - "four"
+
+# complex arrays
+complexitems:
+  - things:
+      thing1: huey
+      things2: dewey
+      thing3: louie
+  - other things:
+      key: value
+
+# dictionary
+dict: { thing1: huey, thing2: louie, thing3: dewey }
+dict1:
+  bar:
+    - bar
+    - rab
+    - plop
